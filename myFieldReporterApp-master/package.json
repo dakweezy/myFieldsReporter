@@ -1,0 +1,28 @@
+{
+  "name": "my-fields-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "firebase": "^4.12.1",
+    "firebase-admin": "^5.9.1",
+    "jquery": "^3.3.1",
+    "moment": "^2.19.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-geolocated": "^2.1.0",
+    "react-geolocation": "^1.0.3",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "seed": "node scripts/seed.js"
+  },
+  "devDependencies": {
+    "node-csv": "^0.1.2"
+  }
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'open_sansregular', sans-serif;
+    font-weight:inherit;
+}
+
+a{
+    cursor: pointer;
+    margin: 10px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+}
+
+input, [class*="input"]{
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    display: inline-block;
+    text-align: left;
+    outline: none;
+}
+
+input:focus, [class*="input"]:focus{
+    border: 1px solid #4ca6de;
+}
+
+button, [class*="button"]{
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'open_sansbold', sans-serif;
+    color: #ffffff;
+    background-color: #cbcbcb;
+    border: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+button:focus, [class*="button"]:focus{
+    border: 1px solid #4ca6de;
+}
+
+select{
+    padding: 4px 5px 4px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    outline: none;
+}
+
+select:focus{
+    border: 1px solid #4ca6de;
+}
+
+.clearfix{
+    clear: both;
+}
+
+h1{
+    margin: 0 0 10px 0;;
+    text-align: left;
+}
+
+#log-out{
+    width: 50%;
+    float: right;
+    margin-top: 3px;
+}
+
+.log-container{
+    width: 300px;
+    padding: 0 15px;
+    margin-top: -15px;
+    height: 35px;
+    position: fixed;
+    bottom:0%;
+    background: white;
+    width: 100%
+}
+
+.float-right{
+    float: right;
+}
+
+Router{
+    border: 1px solid blue;
+}
+
+.App {
+    text-align: center;
+    position: relative;
+    min-height: 550px;
+    height: 100vh;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #fff;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header a{
+    float: none;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
